@@ -15,7 +15,7 @@ class GeminiProvider(LLMProvider):
         self,
         prompt: str,
         system: str = "",
-        max_tokens: int = 1024,
+        max_tokens: int = 4096,
         temperature: float = 0.7,
     ) -> LLMResponse:
         """Generate text using the Gemini model."""
